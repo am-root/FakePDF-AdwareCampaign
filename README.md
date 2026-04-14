@@ -1,2 +1,4 @@
 # PDFCampaign
-This repository is to list down all IOCs related to fake PDF adware campaign. This includes all domains, SHA256, file names, Signers etc. 
+This repository is to list down all IOCs related to fake PDF adware campaign. This includes all domains, SHA256, Signers etc. 
+
+This will help identify files downloaded through web browsers that masquerade as PDF documents but carry executable file extensions — which is commonly seen in adware campaigns or commonly leveraged in phishing and social engineering campaigns. Attackers have been pushing malicious PDF tools (OneStart, ManualReaderPro etc.) via ads, redirections and search-engine tricks, these installers hide info-stealing malware. Victims click on ads or “free PDF” downloads, which install trojanized apps. Behind the scenes these run hidden scripts that create persistence (Run keys, scheduled tasks, communicate to C2 domains) and fetch malicious payloads from attacker domains.
